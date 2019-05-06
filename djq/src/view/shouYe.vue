@@ -224,7 +224,7 @@ import Tabbar from "./coms/Tabbar";
   /* font-size: 12px; */
 }
 .nav{
-  background-image: url('../../static/shouye/bt_bg.png'); 
+  background-image: url('../../static/shouye/bt_bg.png');
   background-size: contain;
   /* 设置大小 */
 }

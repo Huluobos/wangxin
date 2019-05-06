@@ -21,11 +21,11 @@
     <div class="right">
         <div>
             <span>微博：</span>
-            <a href="https://weibo.com/u/5332676018?nick=Huluobos%E4%B8%B6&is_all=1">Huluobos</a>
+            <a href="https://weibo.com/u/5332676018?nick=Huluobos%E4%B8%B6&is_all=1">王鑫</a>
         </div>
         <div>
             <span>微信：</span>
-            <a href="#">zby18332725321</a>
+            <a href="#">wangxin123</a>
         </div>   
     </div>
     
