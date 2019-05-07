@@ -1,0 +1,2 @@
+webpackJsonp([6],{Yr8g:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"content"},[e("img",{attrs:{src:n("gQmB"),alt:""}})])}]};var s=n("VU/8")({},r,!1,function(t){n("nY2v")},"data-v-312d7575",null);e.default=s.exports},gQmB:function(t,e,n){t.exports=n.p+"client/img/wxPay.c187e21.png"},nY2v:function(t,e){}});
+//# sourceMappingURL=6.3c3b23c6fa2d6e8698da.js.map

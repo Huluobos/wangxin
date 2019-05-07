@@ -13,7 +13,7 @@ var qiniu = require("./routes/qiniu")
 
 var admin = require('./routes/admin');
 var client = require('./routes/client');
-var oldClient = require('./routes/oldClient');
+
 
 var admins = require('./routes/admins');
 var jfs = require("./routes/jfs")
@@ -49,7 +49,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api', qiniu);
 app.use('/admin', admin);
 app.use('/client', client);
-app.use('/oldClient', oldClient);
+
 
 app.use('/api/jfs', jfs);
 app.use('/api/newsLists', newsLists);

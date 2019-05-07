@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       // "/api":{
-      //   target:'http://localhost:10002', //http://02.yaojunrong.com
+      //   target:'http://119.3.216.3:10002/api',
       //   changeOrigin:true,
       // },
     },
@@ -47,7 +47,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'client2',
+    assetsSubDirectory: 'client',
     assetsPublicPath: '/',
 
     /**

@@ -11,10 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      "/api":{
-        target:'http://02.yaojunrong.com',
-        changeOrigin:true,
-      },
+
     },
 
     // Various Dev Server settings
