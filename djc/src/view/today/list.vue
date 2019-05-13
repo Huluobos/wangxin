@@ -1,5 +1,5 @@
 <template>
-  <div style="list">
+  <div class="list">
       <div v-html="fromData">
         
       </div>

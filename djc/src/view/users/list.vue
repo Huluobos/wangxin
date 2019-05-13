@@ -16,7 +16,7 @@
         prop="headPic"
         label="头像">
         <template slot-scope="scope">
-          <img :src="scope.row.headPic" alt="" style="max-height:70px;width:70px;display=block">
+          <img :src="scope.row.headPic" alt="" style="max-height:70px;width:70px;display:block">
         </template>
       </el-table-column>
 

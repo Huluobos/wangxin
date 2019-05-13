@@ -26,6 +26,5 @@ var tieZis = new mongoose.Schema({
         type:Array,
         default:[],
     }
-    
 },{versionKey:false});    //设置取消上传数据库带有的版本号
 module.exports = mongoose.model("tieZis",tieZis)

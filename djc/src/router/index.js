@@ -28,8 +28,8 @@ export default new Router({
             path: "/admin/add",
             name:"管理员添加页",
             component: ()=>import('@/view/admin/add')
-          },            
-      ]  
+          },
+      ]
     },
     {
       path: '/news',

@@ -1,5 +1,5 @@
 <template>
-  <div style="list">
+  <div class="list">
     <el-table
       :data="fromData"
       border
@@ -8,7 +8,7 @@
         prop="headPic"
         label="图片">
         <template slot-scope="scope">
-          <img :src="scope.row.headPic" alt="" style="max-height:70px;width:70px;display=block">
+          <img :src="scope.row.headPic" alt="" style="max-height:70px;width:70px;display:block">
         </template>
       </el-table-column>   
        <el-table-column

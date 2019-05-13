@@ -17,6 +17,4 @@ export default {
 
 <style>
 @import "./style/init.css";
-
-
 </style>

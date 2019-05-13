@@ -1,5 +1,5 @@
 <template>
-  <div style="list">
+  <div class="list">
     <el-table
       :data="fromData"
       border

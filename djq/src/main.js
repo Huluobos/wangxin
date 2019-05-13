@@ -34,8 +34,6 @@ Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Button.name, Button);
 Vue.component(Radio.name, Radio);
 
-
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -1,6 +1,6 @@
 
 <template>
-  <div style="list">
+  <div class="list">
     <el-table
       :data="fromData"
       border
@@ -10,7 +10,7 @@
         label="图片"
         width="220">
         <template slot-scope="scope">
-          <img :src="scope.row.pic" alt="" style="max-height:150px;width:150px;display=block">
+          <img :src="scope.row.pic" alt="" style="max-height:150px;width:150px;display:block">
         </template>
       </el-table-column>     
       

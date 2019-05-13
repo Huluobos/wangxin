@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
-
-
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
@@ -91,10 +87,6 @@ export default new Router({
           name: '特色活动',
           component:()=>import('@/view/news/tshds'),
         },
-
-
-
-        
         {
         path: '/zzsh',
         name: '掌上组织生活',
@@ -150,14 +142,12 @@ export default new Router({
             name: '个人总结审核页',
             component:()=>import('@/view/zzsh/grzjsCheck'),
           },
-          
+
           {
             path: '/map',
             name: '流动党员找组织',
             component:()=>import('@/view/zzsh/map'),
           },
-
-
     {
     path: '/yhd',
     name: '党员云互动',
@@ -168,9 +158,6 @@ export default new Router({
     name: '党员云互动',
     component:()=>import('@/view/yhd/reply'),
     },
-
-
-
     {
     path: '/today',
     name: '党史上的今天',
@@ -225,7 +212,5 @@ export default new Router({
       name: '党费缴纳',
       component:()=>import('@/view/user/money'),
     },
-
-         
   ]
 })
